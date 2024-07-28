@@ -10,6 +10,6 @@ int oddeven()
 
 int main()
     {   printf("Enter the number");
-        scanf("num", &d);
+        scanf("%d",&num);
         oddeven();
     }
