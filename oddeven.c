@@ -1,15 +1,16 @@
+//Check if entered number is even or odd
 #include<stdio.h>
 int num;
 int oddeven()
     {
-        if (num%2==0)
-            printf("the number is even");
+        if (num%2==0)//if remainder=0 then it is divisble by 2 which implies number is even.
+            printf("The entered number %d is even.",num);
         else
-            printf("the number is odd");
+            printf("The entered number %d is odd.",num);
     }
 
-int main()
-    {   printf("Enter the number");
+int main()//main function
+    {   printf("Enter the number:");
         scanf("%d",&num);
-        oddeven();
+        oddeven();//function call
     }
