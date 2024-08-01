@@ -2,7 +2,8 @@
 three numbers. The first three numbers are 0,0,1.*/
 #include <stdio.h>
 int n, a = 0, b = 0, c = 1;
-int seq(){for (int i = 3; i < n; i++) {
+int seq(){
+        for (int i = 3; i < n; i++) {
         int sum = a + b + c;
         printf(" %d", sum);
         a = b;
