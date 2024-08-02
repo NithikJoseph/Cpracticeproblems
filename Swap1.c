@@ -1,3 +1,4 @@
+#swap of two numbers
 #include<stdio.h>
 int a,b,temp=0;
 int swap1(){
