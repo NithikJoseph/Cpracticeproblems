@@ -1,3 +1,4 @@
+#swap without 3rd variable 
 #include<stdio.h>
 int a,b;
 int swap2(){
